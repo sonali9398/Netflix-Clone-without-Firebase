@@ -16,6 +16,11 @@ You may also see any lint errors in the console.
 
 ===========================================================
 
+const allowedEmail = "sonalik@gmail.com";
+const allowedPassword = "Netflix@123";
+
+===========================================================
+
 Tailwind css configuration done
 
 
