@@ -1,0 +1,24 @@
+/* Hide the scroll bar but keep scrolling functionality */
+.custom-scroll::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+  
+  .custom-scroll {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  /* OR: Style the scroll bar for better appearance */
+  .custom-scroll::-webkit-scrollbar {
+    height: 8px; /* Scroll bar height */
+  }
+  
+  .custom-scroll::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3); /* Scroll bar color */
+    border-radius: 10px; /* Rounded scroll bar edges */
+  }
+  
+  .custom-scroll::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1); /* Track color */
+  }
+  

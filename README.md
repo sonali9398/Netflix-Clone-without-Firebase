@@ -36,6 +36,10 @@ Browse (after auth)
  - Button (sub to watch)
     - List of movies to watch
 
-Disney search bar
+Netflix search bar
     - search Bar
     - movie suggestion
+
+Currently thing to implement on secondary container---
+    when user hover movie tab will increase size, 
+        includes movie name, desc, video playing in bg
