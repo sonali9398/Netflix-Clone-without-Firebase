@@ -6,7 +6,7 @@ const gptSlice = createSlice({
         showGptSearch:false
     },
     reducers:{
-        toogleGptSearchView: (state) =>{
+        toggleGptSearchView: (state) =>{
             state.showGptSearch = !state.showGptSearch
         }
     }
